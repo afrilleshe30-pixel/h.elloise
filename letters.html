@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>For Hya</title>
+<meta name="robots" content="noindex, nofollow" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body class="letters-page">
+
+  <!-- ================= FRIENDS' MESSAGES ================= -->
+  <section id="messages-section" class="messages-section messages-section--standalone" data-sparkle>
+    <div class="messages-header" data-fade>
+      <p class="eyebrow">for you, from everyone who loves you</p>
+      <h2>The people who adore you<br>wanted you to know it.</h2>
+    </div>
+
+    <div id="messages-grid" class="messages-grid">
+      <!-- Cards are injected by script.js from data/messages.js -->
+    </div>
+
+    <p class="messages-footer" data-reveal>
+      that's everyone for now, but you are loved beyond what fits on a screen.
+    </p>
+
+    <!-- Secret Passcode Wrapper -->
+    <div class="lock-container" data-reveal>
+      <div class="lock-icon-wrap" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="5" y="11" width="14" height="11" rx="2" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M8 11V7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7V11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <h3 class="lock-title">unlock the final surprise</h3>
+      <p class="lock-hint">hint: ur bday (ddmmyy)</p>
+      
+      <form id="passcode-form" class="lock-form">
+        <input 
+          type="text" 
+          id="passcode-input" 
+          maxlength="6" 
+          placeholder="••••••" 
+          autocomplete="off"
+          aria-label="Enter birthday passcode"
+        />
+        <button type="submit" class="lock-submit-btn">Unlock</button>
+      </form>
+      <p id="lock-error" class="lock-error-msg" aria-live="polite"></p>
+    </div>
+
+    <a href="index.html" class="back-link" data-reveal>&larr; back to the beginning</a>
+  </section>
+
+  <!-- full-screen fade overlay used during the transition to videos.html -->
+  <div id="page-transition" class="page-transition" aria-hidden="true"></div>
+
+  <script src="data/messages.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

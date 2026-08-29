@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Final Surprise</title>
+<meta name="robots" content="noindex, nofollow" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  .video-page {
+    background: #0c0b0a;
+    color: #f3ead9;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 1.5rem;
+    box-sizing: border-box;
+  }
+  .video-header {
+    text-align: center;
+    max-width: 36rem;
+    margin-bottom: 4rem;
+  }
+  .video-header p {
+    color: #9caf88;
+    font-size: 0.75rem;
+    text-transform: lowercase;
+    letter-spacing: 0.14em;
+    margin: 0 0 1rem;
+  }
+  .video-header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(1.8rem, 5vw, 2.6rem);
+    font-weight: 500;
+    line-height: 1.3;
+    margin: 0;
+  }
+  .video-grid {
+    width: 100%;
+    max-width: 48rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .video-card {
+    background-color: #16140f;
+    border: 1px solid rgba(217, 195, 163, 0.15);
+    border-radius: 6px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .video-card-title {
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    color: #d9c3a3;
+    margin: 0;
+  }
+  .video-placeholder-box {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: #0c0b0a;
+    border: 1px dashed rgba(217, 195, 163, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #52493c;
+    border-radius: 4px;
+    gap: 0.5rem;
+  }
+  .video-placeholder-box svg {
+    opacity: 0.4;
+  }
+  .video-placeholder-box p {
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    margin: 0;
+    text-transform: lowercase;
+  }
+  .back-home {
+    margin-top: 5rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: lowercase;
+    color: #b89f7b;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  .back-home:hover {
+    opacity: 1;
+  }
+</style>
+</head>
+<body class="video-page">
+
+  <div class="video-header">
+    <p>from the ones who knew you first</p>
+    <h1>A few extra messages saved just for you.</h1>
+  </div>
+
+  <div class="video-grid">
+    <div class="video-card">
+      <h2 class="video-card-title">Message from Dad</h2>
+      <div class="video-placeholder-box">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+          <polygon points="5 3 19 12 5 21 5 3"/>
+        </svg>
+        <p>Video asset placeholder</p>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <h2 class="video-card-title">Message from Mom</h2>
+      <div class="video-placeholder-box">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+          <polygon points="5 3 19 12 5 21 5 3"/>
+        </svg>
+        <p>Video asset placeholder</p>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <h2 class="video-card-title">Message from Sibling</h2>
+      <div class="video-placeholder-box">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+          <polygon points="5 3 19 12 5 21 5 3"/>
+        </svg>
+        <p>Video asset placeholder</p>
+      </div>
+    </div>
+  </div>
+
+  <a href="index.html" class="back-home">&larr; back to the beginning</a>
+
+</body>
+</html>
