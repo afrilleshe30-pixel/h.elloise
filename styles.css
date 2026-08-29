@@ -244,7 +244,24 @@ a { color: inherit; text-decoration: none; }
   .film-perf-line--right { right: 2px; }
 }
 @media (max-width: 650px) {
-  .film-strip { display: none; }
+  /* Mobile Filmstrip Fix: Scale them down and fade them so they don't block text */
+  .film-strip { 
+    width: min(7rem, 22vw); 
+    padding: 1rem 0.5rem; 
+  }
+  .film-strip.is-visible {
+    opacity: 0.35; 
+  }
+  .film-strip--left {
+    left: 2vw;
+  }
+  .film-strip--right {
+    right: 2vw;
+  }
+  .film-perf-line { width: 3px; }
+  .film-perf-line--left { left: 2px; }
+  .film-perf-line--right { right: 2px; }
+  .film-frame { margin-bottom: 1rem; }
 }
 
 /* =========================================================
@@ -395,11 +412,6 @@ a { color: inherit; text-decoration: none; }
   align-items: center;
   position: relative;
   z-index: 1;
-}
-
-.memory-game-wrap .eyebrow {
-  align-self: center;
-  margin-bottom: var(--space-2);
 }
 
 .game-card {
@@ -557,8 +569,23 @@ a { color: inherit; text-decoration: none; }
 .msg-back-photo { width: 38%; flex-shrink: 0; background-size: cover; background-position: center; border-right: 1px solid rgba(43,38,32,0.12); }
 .msg-face--back.no-photo .msg-back-photo { display: none; }
 
-.msg-back-content { flex: 1; display: flex; flex-direction: column; min-width: 0; padding: var(--space-2) var(--space-2) var(--space-1); }
-.msg-text-wrap { flex: 1; overflow-y: auto; padding-right: 0.4rem; scrollbar-width: thin; scrollbar-color: var(--sage-deep) transparent; }
+.msg-back-content { 
+  flex: 1; 
+  display: flex; 
+  flex-direction: column; 
+  min-width: 0; 
+  min-height: 0; /* Mobile Scroll Fix */
+  padding: var(--space-2) var(--space-2) var(--space-1); 
+}
+.msg-text-wrap { 
+  flex: 1; 
+  overflow-y: auto; 
+  padding-right: 0.4rem; 
+  scrollbar-width: thin; 
+  scrollbar-color: var(--sage-deep) transparent; 
+  -webkit-overflow-scrolling: touch; /* Mobile Scroll Fix */
+  overscroll-behavior: contain;
+}
 .msg-text-wrap::-webkit-scrollbar { width: 5px; }
 .msg-text-wrap::-webkit-scrollbar-track { background: transparent; }
 .msg-text-wrap::-webkit-scrollbar-thumb { background: var(--beige-deep); border-radius: 4px; }
@@ -658,23 +685,6 @@ a { color: inherit; text-decoration: none; }
 }
 @media (prefers-reduced-motion: reduce) { .sparkle-layer { display: none; } }
 
-/* =========================================================
-   RESPONSIVE
-   ========================================================= */
-@media (max-width: 650px) {
-  .game-card { flex-direction: column; text-align: center; padding: 1.5rem; }
-  .game-photo-frame { width: 100%; aspect-ratio: 1.2 / 1; }
-  .game-btn { align-self: center; }
-}
-
-@media (max-width: 480px) {
-  .letter-section, .envelope-section, .messages-section { padding-left: var(--space-2); padding-right: var(--space-2); }
-  .paper-inner { padding: 2.25rem 1.5rem; }
-  .messages-grid { grid-template-columns: 1fr; }
-  .msg-card { height: 18rem; }
-  .msg-face--back { flex-direction: column; }
-  .msg-back-photo { width: 100%; height: 7rem; border-right: none; border-bottom: 1px solid rgba(43,38,32,0.12); }
-}
 
 /* =========================================================
    SECRET LINK (index.html) & BOUQUET PAGE (bouquet.html)
@@ -751,11 +761,23 @@ a { color: inherit; text-decoration: none; }
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.8));
 }
 
-@media (max-width: 600px) {
-  .bouquet-section {
-    padding-top: var(--space-4);
-  }
-  .bouquet-img {
-    max-height: 65svh;
-  }
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+@media (max-width: 650px) {
+  .game-card { flex-direction: column; text-align: center; padding: 1.5rem; }
+  .game-photo-frame { width: 100%; aspect-ratio: 1.2 / 1; }
+  .game-btn { align-self: center; }
+  .bouquet-section { padding-top: var(--space-4); }
+  .bouquet-img { max-height: 65svh; }
+}
+
+@media (max-width: 480px) {
+  .letter-section, .envelope-section, .messages-section { padding-left: var(--space-2); padding-right: var(--space-2); }
+  .paper-inner { padding: 2.25rem 1.5rem; }
+  .messages-grid { grid-template-columns: 1fr; }
+  .msg-card { height: 22rem; } /* Made cards taller on mobile for easier reading */
+  .msg-face--back { flex-direction: column; }
+  .msg-back-photo { width: 100%; height: 7rem; border-right: none; border-bottom: 1px solid rgba(43,38,32,0.12); }
 }
