@@ -9,7 +9,7 @@ const hyaMemories = [
   },
   {
     image: "images/filmstrips/pic3.jpg",
-    description: "First Becca cafe date with you. Will always love this photo of us together. May not the selfie type but with you, just keep on spammin selfies hehe."
+    description: "First Becca cafe date with you. Will always love this photo of us together. May not be the selfie type but with you, just keep on spammin selfies hehe."
   },
   {
     image: "images/filmstrips/pic4.jpg",
