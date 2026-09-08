@@ -781,3 +781,59 @@ a { color: inherit; text-decoration: none; }
   .msg-face--back { flex-direction: column; }
   .msg-back-photo { width: 100%; height: 7rem; border-right: none; border-bottom: 1px solid rgba(43,38,32,0.12); }
 }
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  text-align: center;
+  padding: var(--space-2);
+}
+
+.video-title {
+  font-family: var(--font-serif);
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.video-desc {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+  opacity: 0.8;
+}
+
+.video-btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.video-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+  transform: translateY(-2px);
+}
+
+.video-wrapper {
+  width: 100%;
+  max-width: 50rem; 
+  margin: 0 auto var(--space-3); 
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}

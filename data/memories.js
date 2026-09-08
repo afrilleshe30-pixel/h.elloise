@@ -118,5 +118,33 @@ const hyaMemories = [
   {
     image: "images/filmstrips/pic37.jpg",
     description: "kadow kadow kadow kadow kadow kadow"
+  },
+  {
+    image: "images/filmstrips/pic38.jpg",
+    description: "kadow with bilala"
+  },
+  {
+    image: "images/filmstrips/pic39.jpg",
+    description: "aaaaaaaaaahhhhhhh konni days gyeddd"
+  },
+  {
+    image: "images/filmstrips/pic40.jpg",
+    description: "mao na mga times nga diko pede mutan-aw nimo straight for like a minute kay i blush too hard (even now err)"
+  },
+  {
+    image: "images/filmstrips/pic41.jpg",
+    description: "memorable first kiss, still gives me butterflies till this day"
+  },
+  {
+    image: "images/filmstrips/pic42.jpg",
+    description: "i just remember being clingy the whole time heree"
+  },
+  {
+    image: "images/filmstrips/pic43.jpg",
+    description: "random visits sa room ninyo hehe"
+  },
+  {
+    image: "images/filmstrips/pic44.jpg",
+    description: "i got new frames hereee tapos i uban hatud u sa dao terminal ehe"
   }
 ];
