@@ -97,5 +97,12 @@ im wishing you so much happiness, success, good health, and all the beautiful th
 i loveeee youuu sooo muchhh, cousinnn!!🥺🤍`,
     photo: "data/friendsphotos/f17.jpg"
   },
+  {
+    from: "bonsai",
+    text: `Hi dudd, twinn where have u been LATS HAHAHAAHAHA. HAPPY HAPPY BIRTHDAY DUD! u know how much ko ka thankful nga nagkasuod ta, dako kaayo ka nga reason why ing ani ko imoha ko gi push to be better. Thank you so much dud! isa kang blessing samin mga barkada nimo. Im so sorry dud kung medyo wala nako time ninyo lately , u know me when im inlove dud hehehe but i promise naa ra gihapon ko always para ninyo. Stay who u are dud, we love u always. Enjoy ur day my twin!
+
+i will never forget atong mga late night walks and talks. 12 am thoughts. amping always dud stay strong ninyo ni she. Always rooting for the both of u`,
+    photo: "data/friendsphotos/f18.jpg"
+  },
 
 ];
