@@ -51,7 +51,7 @@ Michelle`,
   {
     from: "Carms",
     text: `HYAAASHITTTT MY HYAAA HAPPY BIRTHDAY!!!MY SANGAYY I WISHH U MORE THAN YOU DESERVE. ALWAYS BE KIND AND KNOW THAT ILY MWHEHEHE NONCHALANT LANG JD KOO AND DI KAAYO TA TAG KITA HAHAHH I MISS UUU HAPPY BIRTHDAY BALIKK`,
-    photo: "data/friendsphotos/f9.jpg"
+    photo: "data/friendsphotos/f9.JPG"
   },
   {
     from: "Sam",
@@ -98,7 +98,7 @@ i loveeee youuu sooo muchhh, cousinnn!!🥺🤍`,
     photo: "data/friendsphotos/f17.jpg"
   },
   {
-    from: "bonsai",
+    from: "dud",
     text: `Hi dudd, twinn where have u been LATS HAHAHAAHAHA. HAPPY HAPPY BIRTHDAY DUD! u know how much ko ka thankful nga nagkasuod ta, dako kaayo ka nga reason why ing ani ko imoha ko gi push to be better. Thank you so much dud! isa kang blessing samin mga barkada nimo. Im so sorry dud kung medyo wala nako time ninyo lately , u know me when im inlove dud hehehe but i promise naa ra gihapon ko always para ninyo. Stay who u are dud, we love u always. Enjoy ur day my twin!
 
 i will never forget atong mga late night walks and talks. 12 am thoughts. amping always dud stay strong ninyo ni she. Always rooting for the both of u`,
