@@ -104,5 +104,9 @@ i loveeee youuu sooo muchhh, cousinnn!!🥺🤍`,
 i will never forget atong mga late night walks and talks. 12 am thoughts. amping always dud stay strong ninyo ni she. Always rooting for the both of u`,
     photo: "data/friendsphotos/f18.jpg"
   },
-
+  {
+    from: "KATRICE",
+    text: `The Happiest Birthday to my ride or die, my unbiological sister, my safe space.  I keep thinking kung unsay isuwat, but honestly, words feel too small for what I want to say. The only thing that keeps running through my mind is: thank you.  Thank you for existing—for surviving, for caring, and for simply being you. No words can ever fully capture how much I love you, anti. As we’ve grown older, I’m so grateful that I’ve gotten to grow alongside you—to witness you learn, heal, and slowly become the most genuine person I know. I’m so lucky to call you my best friend.  I pray this year pours so much love into your life and opens doors for you to grow in every way. May you experience new things, meet people who cherish you, and truly enjoy this chapter—because no one deserves it more than you.  You’ve been there for me in ways I’ll never forget, and in ways that kita lang kahibaw. And I hope you always remember that I’ll be here for you, no matter what.  I’m so proud of you—of how far you’ve come, of the battles you’ve fought, and of the person you’re becoming.  If you were a song, you’d be my “Best Part,” my “Sure Thing,” and most especially my “For Good.” Because I am who I am today because I got to know you.  Happy birthday, Hyacinth. Here’s to more laughter, more healing, and more us. I love you so much!`,
+    photo: "data/friendsphotos/f19.jpg"
+  },
 ];
